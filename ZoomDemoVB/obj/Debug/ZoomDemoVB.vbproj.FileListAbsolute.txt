@@ -1,0 +1,12 @@
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\bin\Debug\ZoomDemoVB.exe.config
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\bin\Debug\ZoomDemoVB.exe
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\bin\Debug\ZoomDemoVB.pdb
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\bin\Debug\ZoomDemoVB.xml
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.vbprojAssemblyReference.cache
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.Resources.resources
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.vbproj.GenerateResource.cache
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.vbproj.CoreCompileInputs.cache
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.exe
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.xml
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.pdb
+C:\Users\Subha\source\repos\ZoomDemoVB\ZoomDemoVB\obj\Debug\ZoomDemoVB.Form1.resources
