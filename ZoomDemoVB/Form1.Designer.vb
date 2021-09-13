@@ -22,24 +22,26 @@ Partial Class Form1
   'Do not modify it using the code editor.
   <System.Diagnostics.DebuggerStepThrough()> _
   Private Sub InitializeComponent()
-    Me.Label1 = New System.Windows.Forms.Label()
+    Me.lblZoom = New System.Windows.Forms.Label()
     Me.SuspendLayout()
     '
-    'Label1
+    'lblZoom
     '
-    Me.Label1.AutoSize = True
-    Me.Label1.Location = New System.Drawing.Point(268, 138)
-    Me.Label1.Name = "Label1"
-    Me.Label1.Size = New System.Drawing.Size(51, 17)
-    Me.Label1.TabIndex = 0
-    Me.Label1.Text = "Label1"
+    Me.lblZoom.AutoSize = True
+    Me.lblZoom.Location = New System.Drawing.Point(201, 112)
+    Me.lblZoom.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+    Me.lblZoom.Name = "lblZoom"
+    Me.lblZoom.Size = New System.Drawing.Size(34, 13)
+    Me.lblZoom.TabIndex = 0
+    Me.lblZoom.Text = "Zoom"
     '
     'Form1
     '
-    Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+    Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
     Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-    Me.ClientSize = New System.Drawing.Size(800, 450)
-    Me.Controls.Add(Me.Label1)
+    Me.ClientSize = New System.Drawing.Size(600, 366)
+    Me.Controls.Add(Me.lblZoom)
+    Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
     Me.Name = "Form1"
     Me.Text = "Form1"
     Me.ResumeLayout(False)
@@ -47,5 +49,5 @@ Partial Class Form1
 
   End Sub
 
-  Friend WithEvents Label1 As Label
+  Friend WithEvents lblZoom As Label
 End Class

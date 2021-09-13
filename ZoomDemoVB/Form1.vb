@@ -38,6 +38,19 @@
           Zoom(ZoomDirection.Up)
         Case Else
           Zoom(ZoomDirection.None)
+
+          Dim fontsize As Single = Me.Font.Size
+          Dim min_size As Single = 8.25
+          Dim max_size As Single = 17
+          If (e.Delta > 0) Then
+            If fontsize < max_size Then
+              Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize + 2, Me.Font.Style)
+            End If
+          Else
+            If fontsize > min_size Then
+              Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize - 2, Me.Font.Style)
+            End If
+          End If
       End Select
     End If
   End Sub
