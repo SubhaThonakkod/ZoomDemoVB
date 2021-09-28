@@ -29,7 +29,7 @@
               Handles Me.MouseWheel
 
     'check if control is being held down
-    If CtrlIsDown Then
+    If Control.ModifierKeys = Keys.Control Then
       'evaluate the delta's sign and call the appropriate zoom command
       Select Case Math.Sign(e.Delta)
         Case Is < 0
@@ -38,20 +38,19 @@
           Zoom(ZoomDirection.Up)
         Case Else
           Zoom(ZoomDirection.None)
-
-          Dim fontsize As Single = Me.Font.Size
-          Dim min_size As Single = 8.25
-          Dim max_size As Single = 17
-          If (e.Delta > 0) Then
-            If fontsize < max_size Then
-              Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize + 2, Me.Font.Style)
-            End If
-          Else
-            If fontsize > min_size Then
-              Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize - 2, Me.Font.Style)
-            End If
-          End If
       End Select
+      Dim fontsize As Single = Me.Font.Size
+      Dim min_size As Single = 8.25
+      Dim max_size As Single = 17
+      If (e.Delta > 0) Then
+        If fontsize < max_size Then
+          Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize + 2, Me.Font.Style)
+        End If
+      Else
+        If fontsize > min_size Then
+          Me.Font = New Font(Me.Font.FontFamily.ToString, fontsize - 2, Me.Font.Style)
+        End If
+      End If
     End If
   End Sub
 
